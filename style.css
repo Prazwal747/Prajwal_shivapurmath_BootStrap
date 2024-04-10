@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  margin-top: 30px;
+}
+
+.profileImage {
+  /* float: right; */
+  /* padding: 10px; */
+  /* height: auto; */
+  width: 95%;
+  /* max-width: 240px; */
+  /* border: 2px solid rgb(250, 246, 246); */
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("225801.jpg");
+  /* background-position: center; */
+  background-size: cover;
+  transition: 0.4s ease;
+}
+
+.main-content1 {
+  color: white;
+}
+
+.main-content1 h3 {
+  font-size: 29px;
+  font-weight: 600;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body .container {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "YTLC" 500;
+}
+
+@media only screen and (max-width: 576px) {
+  body {
+    width: 100%;
+  }
+
+  .profileImage {
+    width: 140px;
+    z-index: 2;
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  .profileContainer {
+    position: absolute;
+    top: -10rem;
+    left: 9rem;
+  }
+}
