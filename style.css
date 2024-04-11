@@ -42,6 +42,10 @@ body .container {
   font-variation-settings: "wdth" 100, "YTLC" 500;
 }
 
+.container .row .jumbotron .personName {
+  color: rgb(91, 89, 198);
+}
+
 @media only screen and (max-width: 576px) {
   body {
     width: 100%;
